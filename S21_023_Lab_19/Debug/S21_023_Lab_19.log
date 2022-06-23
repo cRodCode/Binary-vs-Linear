@@ -1,0 +1,50 @@
+﻿  S21_023_Lab_19.cpp
+C:\Users\Carlos\Desktop\CIS 023\S21_023_Lab_19\S21_023_Lab_19\S21_023_Lab_19.cpp(186,56): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+C:\Users\Carlos\Desktop\CIS 023\S21_023_Lab_19\S21_023_Lab_19\S21_023_Lab_19.cpp(233,61): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+C:\Users\Carlos\Desktop\CIS 023\S21_023_Lab_19\S21_023_Lab_19\S21_023_Lab_19.cpp(275,60): warning C4302: 'type cast': truncation from 'HWND' to 'WORD'
+C:\Users\Carlos\Desktop\CIS 023\S21_023_Lab_19\S21_023_Lab_19\S21_023_Lab_19.cpp(543,23): warning C4018: '<': signed/unsigned mismatch
+F:\Studio\VC\Tools\MSVC\14.29.30133\include\xstring(2575,23): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+F:\Studio\VC\Tools\MSVC\14.29.30133\include\xstring(2586): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+F:\Studio\VC\Tools\MSVC\14.29.30133\include\xstring(2586): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(_Iter,const _Iter,std::input_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+F:\Studio\VC\Tools\MSVC\14.29.30133\include\xstring(2566): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+F:\Studio\VC\Tools\MSVC\14.29.30133\include\xstring(2566): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct<wchar_t*>(const _Iter,const _Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Users\Carlos\Desktop\CIS 023\S21_023_Lab_19\S21_023_Lab_19\Utilities.h(85): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\Carlos\Desktop\CIS 023\S21_023_Lab_19\S21_023_Lab_19\Utilities.h(84): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\Carlos\Desktop\CIS 023\S21_023_Lab_19\S21_023_Lab_19\S21_023_Lab_19.cpp(196): message : see reference to function template instantiation 'void TCHAR2String<std::string>(TCHAR *,Type *)' being compiled
+          with
+          [
+              Type=std::string
+          ]
+  S21_023_Lab_19.vcxproj -> C:\Users\Carlos\Desktop\CIS 023\S21_023_Lab_19\Debug\S21_023_Lab_19.exe
